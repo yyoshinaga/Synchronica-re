@@ -1,0 +1,12 @@
+[Featured List]track1Name|artist|difficulty|pathToTxt|pathToImage|pathToMusic
+DearestDrop|dunno|Normal|DearestDrop\\DearestDrop.txt|DearestDrop\\sukasuka_DD.jpg|DearestDrop\\audio.mp3
+DearestDrop|dunno|Normal|DearestDrop\\DearestDrop.txt|DearestDrop\\sukasuka_DD.jpg|DearestDrop\\audio.mp3
+DearestDrop|dunno|Normal|DearestDrop\\DearestDrop.txt|DearestDrop\\sukasuka_DD.jpg|DearestDrop\\audio.mp3
+DearestDrop|dunno|Normal|DearestDrop\\DearestDrop.txt|DearestDrop\\sukasuka_DD.jpg|DearestDrop\\audio.mp3
+DearestDrop|dunno|Normal|DearestDrop\\DearestDrop.txt|DearestDrop\\sukasuka_DD.jpg|DearestDrop\\audio.mp3
+DearestDrop|dunno|Normal|DearestDrop\\DearestDrop.txt|DearestDrop\\sukasuka_DD.jpg|DearestDrop\\audio.mp3
+DearestDrop|dunno|Normal|DearestDrop\\DearestDrop.txt|DearestDrop\\sukasuka_DD.jpg|DearestDrop\\audio.mp3
+DearestDrop|dunno|Normal|DearestDrop\\DearestDrop.txt|DearestDrop\\sukasuka_DD.jpg|DearestDrop\\audio.mp3
+DearestDrop|dunno|Normal|DearestDrop\\DearestDrop.txt|DearestDrop\\sukasuka_DD.jpg|DearestDrop\\audio.mp3
+
+
