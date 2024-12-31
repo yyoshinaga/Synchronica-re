@@ -9,15 +9,12 @@ using Rank = SelectedSong.Rank;  // Alias SelectedSong.Rank as Rank
 
 public class ReadBeatMap : MonoBehaviour
 {
-    public ArrayList list;
+    private float delay; 
+
+    // public ArrayList list;
     public List<NoteData> dataList;
 
-    private List<string> readList;
-    private List<int> skipList;
-    private int lineIndex;
-    private int charIndex;
     public AudioSource myAudio;
-    private float delay; 
 
 
     public void Play()
@@ -44,6 +41,8 @@ public class ReadBeatMap : MonoBehaviour
         myAudio.Pause();
         TextAsset textFile = Resources.Load<TextAsset>(beatmapFilePath) as TextAsset;
         
+        Debug.Assert(textFile != null, $"beatmap file {beatmapFilePath} could not get read");
+
         // Split file by newline
         string[] lines = textFile.text.Split('\n');
 
@@ -250,7 +249,6 @@ public class ReadBeatMap : MonoBehaviour
             time + " was not found. " + x + " " + y + " is the coordinate";
         throw new Exception(report);
     }
-
 
     public float GetDelay()
     {

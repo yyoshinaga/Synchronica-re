@@ -29,9 +29,6 @@ public class CameraScript : MonoBehaviour {
 
         // Set the camera's position at the world center, maintaining its current Y and Z position
         camera.transform.position = new Vector3(worldCenter.x, worldCenter.y, -10);
-        Debug.Log($"camera pos: {worldCenter}");
-
-
 
         // If scaled height is less than current height, add letterbox
         if (scaleHeight < 1.0f)

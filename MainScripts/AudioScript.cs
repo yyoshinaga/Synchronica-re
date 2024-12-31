@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class AudioScript : MonoBehaviour {
 
-    private AudioClip tink;
+    private AudioClip tink; // Sound when note is hit
     private AudioSource audioSource;
 
 	// Use this for initialization

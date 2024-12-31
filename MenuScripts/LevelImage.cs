@@ -111,7 +111,7 @@
 //         string currentGenreName = "";
 
 //         bool firstGenre = true;
-
+ 
 //         int tryCounter = 0;
 //         while (lineIndex <= readList.Count-1 && tryCounter < 4000)
 //         {
@@ -385,7 +385,7 @@
 //             SelectedSong.noteFile = clickedButton.GetComponent<SongInfo>().NoteFile;
 //             SelectedSong.audioFile = clickedButton.GetComponent<SongInfo>().AudioFile;
 //             SelectedSong.backgroundFile = clickedButton.GetComponent<SongInfo>().BGFile;
-//             Debug.Log(SelectedSong.backgroundFile);
+
 //             SelectedSong.delay = clickedButton.GetComponent<SongInfo>().Delay;
 //             tempBG = clickedButton.GetComponent<SongInfo>().BGFile;
 //             //SelectedSong.getTitle();
@@ -396,7 +396,8 @@
 
 //             c = GameObject.FindWithTag("MainImage");
 
-//             c.transform.GetChild(0).gameObject.GetComponent<Image>().sprite = clickedButton.transform.GetChild(0).GetComponent<Image>().sprite;
+//             c.transform.GetChild(0).gameObject.GetComponent<Image>().sprite = 
+//             clickedButton.transform.GetChild(0).GetComponent<Image>().sprite;
 //             TMP_Text t = c.transform.GetChild(1).gameObject.GetComponent<TMP_Text>();
 //             t.text = clickedButton.transform.GetChild(2).GetComponent<TMP_Text>().text;
 

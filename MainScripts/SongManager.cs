@@ -16,7 +16,6 @@ public class SongManager : MonoBehaviour {
     private const float screenOffsetX = 0f;//-355f;
     private const float screenOffsetY = 0f;//-200f;
     private const float noteAppearanceDelay = -0.5f;
- 
 
     private float multiplierX;
     private float multiplierY; 
@@ -248,6 +247,7 @@ public class SongManager : MonoBehaviour {
 
         return redNote;
     }
+
     private GameObject CreateGreenNote(GameObject linkInstance)
     {
         float rotation = currentNote.GetAngle();
@@ -266,6 +266,7 @@ public class SongManager : MonoBehaviour {
 
         return greenNote;
     }
+    
     private GameObject CreateYellowNote(GameObject linkInstance)
     {
         GameObject yellowNote = 
